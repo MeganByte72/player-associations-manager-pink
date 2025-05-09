@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Association Manager</title>
+    <link rel="stylesheet" href="/static/style.css">
+  </head>
+  <body>
+    <a href="/add_association">
+      <button class="slide-in">Add Association</button>
+    </a>
+    <a href="/search">
+      <button class="slide-in">Search Associations</button>
+    </a>
+   <a href="/export">
+  <button class="slide-in export-button">Export Data</button>
+</a>
+    <form action="/import" method="POST" enctype="multipart/form-data" class="import-form">
+  <label for="file" class="slide-in import-text">Choose a JSON file to import:</label>
+  <input type="file" id="file" name="file" accept=".json" required class="file-import">
+  <button type="submit" class="slide-in import-button">Import Data</button>
+</form>
+    <h2 class="corner-label">v2.1 - Made By MeganByte_ ^-^</h2>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Player Association</title>
+    <link rel="stylesheet" href="/static/style.css">
+  </head>
+  <body class="fade-in">
+    <h1>Add a New Player Association</h1>
+    <form action="/add_association" method="POST">
+      <label for="player_name">Player Name : </label>
+      <input type="text" id="player_name" name="player_name" required><br><br>
+      <label for="associated_group">Associated Group or Groups : </label>
+      <input type="text" id="associated_group" name="associated_group" required><br><br>
+      <label for="notes">Notes : </label>
+      <textarea id="notes" name="notes"></textarea><br><br>
+      <button type="submit">Save</button>
+    </form>
+    <a href="/">Go Back</a>
+    <h2 class="corner-label"> WARNING ALL TEXT FIELDS ARE CASE SENSITIVE</h2>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Search Results</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+ <body class="fade-in">
+    <h1>Players in Group: "{{ search_group }}"</h1>
+
+    {% if results %}
+        <ul>
+            {% for result in results %}
+                <li>
+                    <a href="{{ url_for('profile', player_id=result[0]) }}">{{ result[1] }}</a> - {{ result[2] }}
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>sry cant find any players in this group :(</p>
+    {% endif %}
+
+    <a href="/">Back to home</a>
+</body>
+</html>

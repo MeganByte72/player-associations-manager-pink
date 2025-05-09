@@ -1,0 +1,213 @@
+body {
+  background-color: #181818; /* backgrounds color ^-^ */
+  color: #ffffff; /* text color ^-^*/
+  font-family: 'Roboto Mono', monospace; /* font 2 use ^-^ */
+}
+
+h1 {
+  color: #c4c0c4; /* color for headings */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+  background-color: #db88cf; /* color 4 the buttons ^-^ */
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #854e7c; /* hover color */
+}
+
+a {
+  display: inline-block;
+  margin-top: 20px;
+  color: #ff9cf0; /* links colors */
+  text-decoration: none; /* no underlines >:( */
+}
+
+a:hover {
+  text-decoration: underline; /* underlines on hover ^-^ */
+}
+
+img {
+    border-radius: 10px; /* round corners */
+    margin-bottom: 20px;
+}
+
+.corner-label {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  color: #c4c0c4;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+/*  rainbows effect ^-^ */
+.tag {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px 5px 5px 0;
+  border-radius: 12px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  background: linear-gradient(270deg, 
+    #ff69b4, #ffcc00, #00ffcc, #66ccff, #cc66ff, #ff69b4);
+  background-size: 600% 600%;
+  animation: rainbowMove 8s ease infinite;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  border: none;
+}
+
+@keyframes rainbowMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
+
+button {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05); /* amounts button becomes biggers ^-^ */
+  background-color: #854e7c;
+}
+
+a {
+  display: inline-block;
+  margin-top: 20px;
+  color: #ff9cf0;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+  transform: scale(1.05); /* amounts link becomes biggers */
+  color: #c4c0c4;
+}
+
+.slide-in {
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: slideIn 0.5s forwards;
+}
+
+@keyframes slideIn {
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.delete-section {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  margin: 0;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f;
+}
+
+/* nuke page stuffs ^-^ */
+.nuke-page .glitch-heading {
+  position: relative;
+  color: #ffffff;
+  font-size: 3em;
+  font-weight: bold;
+  text-transform: uppercase;
+  animation: glitch 1s infinite;
+  text-shadow: 0 0 5px #ff69b4, 0 0 10px #ff69b4, 0 0 15px #ff69b4;
+}
+
+@keyframes glitch {
+  0% { text-shadow: 0 0 5px #ff69b4, 0 0 10px #ff69b4, 0 0 15px #ff69b4; }
+  10% { text-shadow: 0 0 25px #ff69b4, 0 0 50px #ff69b4, 0 0 75px #ff69b4; }
+  20% { text-shadow: 0 0 10px #ff69b4, 0 0 20px #ff69b4, 0 0 30px #ff69b4; }
+  30% { text-shadow: 0 0 5px #ff69b4, 0 0 10px #ff69b4, 0 0 15px #ff69b4; }
+  40% { text-shadow: 0 0 25px #ff69b4, 0 0 50px #ff69b4, 0 0 75px #ff69b4; }
+  50% { text-shadow: 0 0 10px #ff69b4, 0 0 20px #ff69b4, 0 0 30px #ff69b4; }
+  100% { text-shadow: 0 0 5px #ff69b4, 0 0 10px #ff69b4, 0 0 15px #ff69b4; }
+}
+
+.nuke-page button, .nuke-page input {
+  border: 2px solid #ff69b4;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 5px #ff69b4, 0 0 10px #ff69b4;
+}
+
+.nuke-page button:hover, .nuke-page input:hover {
+  background-color: #ff69b4;
+  color: white;
+  box-shadow: 0 0 15px #ff69b4, 0 0 30px #ff69b4;
+}
+
+.nuke-page input:focus {
+  outline: none;
+  box-shadow: 0 0 15px #ff69b4, 0 0 30px #ff69b4;
+}
+
+
+/* imports + exports buttons + text and such ^-^ */
+.export-button {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  margin: 10px;
+}
+
+.import-button {
+  position: fixed;
+  bottom: 60px;
+  right: 10px;
+  margin: 10px;
+}
+
+.import-text {
+  position: fixed;
+  bottom: 68px;
+  right: 380px;
+  margin: 10px;
+}
+
+.file-import {
+  position: fixed;
+  bottom: 68px;
+  right: 140px;
+  margin: 10px;
+}

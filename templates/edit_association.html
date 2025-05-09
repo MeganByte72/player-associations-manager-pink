@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Player Association</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Edit Player Association</h1>
+    <form action="/edit_association/{{ player[0] }}" method="POST">
+        <label for="player_name">Player Name (Case Sensitive):</label>
+        <input type="text" id="player_name" name="player_name" value="{{ player[1] }}" required><br><br>
+        <label for="associated_group">Associated Group or Groups:</label>
+        <input type="text" id="associated_group" name="associated_group" value="{{ player[2] }}" required><br><br>
+        <label for="notes">Notes:</label>
+        <textarea id="notes" name="notes">{{ player[3] }}</textarea><br><br>
+        <button type="submit">Save Changes</button>
+    </form>
+    <a href="/">Go Back</a>
+</body>
+</html>

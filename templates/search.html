@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Player Associations</title>
+    <link rel="stylesheet" href="/static/style.css">
+  </head>
+  <body class="fade-in">
+    <h1>Search for a Player Association</h1>
+    <form action="/search" method="POST">
+      <label for="search_name">Player Name:</label>
+      <input type="text" id="search_name" name="search_name" required><br><br>
+      <button type="submit">Search</button>
+    </form>
+    <h1>Search for Player Associations by Group</h1>
+<form action="/search_group" method="POST">
+    <label for="search_group">Group Name:</label>
+    <input type="text" id="search_group" name="search_group" required><br><br>
+    <button type="submit">Search</button>
+</form>
+    <a href="/">Go Back</a>
+    <h2 class="corner-label"> WARNING ALL TEXT FIELDS ARE CASE SENSITIVE</h2>
+  </body>
+</html>
