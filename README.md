@@ -20,3 +20,7 @@ There is alsos a feature to erase the entire database incase something happens a
 ![nuke](https://raw.githubusercontent.com/MeganByte72/images-for-player-association-manager/refs/heads/main/Screenshot%20From%202025-05-09%2015-37-36.png)
 
 This program is made to keep track of players and who they are associated with on anarchy servers or rly whtever you would want to use it for to keep track of tht sort of thing it is very versatile bcuz anyone can share there databases with anyone and have importing and exporting done with a json file bassicly instantly it makes shareing very simple and easy with as many or as little people as you would like editing players after they are add is easy as well 
+
+---
+
+`how do i install?`
