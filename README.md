@@ -38,3 +38,6 @@ Then open a terminal in the folder tht you unziped the program to and type out t
 
 Then press enter and you should get this in the terminal 
 ![outputcmd](https://raw.githubusercontent.com/MeganByte72/images-for-player-association-manager/refs/heads/main/Screenshot%20From%202025-05-09%2015-58-37.png)
+
+copy and paste the http link where it says running on and paste it into your browser url bar and press enter once you do tht it shld just bring up the program ^-^
+![program](https://raw.githubusercontent.com/MeganByte72/images-for-player-association-manager/refs/heads/main/Screenshot%20From%202025-05-09%2016-01-07.png)
