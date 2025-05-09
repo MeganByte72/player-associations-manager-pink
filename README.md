@@ -13,3 +13,6 @@ Searching is easy after adding players or importing another persons data base th
 
 example of group search results ^-^ : 
 ![searchresults](https://raw.githubusercontent.com/MeganByte72/images-for-player-association-manager/refs/heads/main/Screenshot%20From%202025-05-09%2015-32-38.png)
+
+You can click on the results for players you get and it will show you information associated with them as well as any notes you have added :
+![searchresultsplayers](https://raw.githubusercontent.com/MeganByte72/images-for-player-association-manager/refs/heads/main/Screenshot%20From%202025-05-09%2015-35-13.png)
