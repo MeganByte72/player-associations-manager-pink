@@ -24,6 +24,8 @@ There is alsos a feature to erase the entire database incase something happens a
 
 This program is made to keep track of players and who they are associated with on anarchy servers or rly whtever you would want to use it for to keep track of tht sort of thing it is very versatile bcuz anyone can share there databases with anyone and have importing and exporting done with a json file bassicly instantly it makes shareing very simple and easy with as many or as little people as you would like editing players after they are added is easy as well 
 
+I have more themes i have made for this as well i just dont have times 2 upload them rn sry i will later though dw ^-^
+
 ---
 
 `how do i install?`
