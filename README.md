@@ -35,3 +35,6 @@ After you have the zip file unzip it and make sure tht python3 is installed you 
 
 Then open a terminal in the folder tht you unziped the program to and type out this 
 ![cmdcommand](https://raw.githubusercontent.com/MeganByte72/images-for-player-association-manager/refs/heads/main/Screenshot%20From%202025-05-09%2015-55-44.png)
+
+Then press enter and you should get this in the terminal 
+![outputcmd](https://raw.githubusercontent.com/MeganByte72/images-for-player-association-manager/refs/heads/main/Screenshot%20From%202025-05-09%2015-58-37.png)
