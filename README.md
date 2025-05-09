@@ -10,3 +10,6 @@ Search Page :
 ![searchpage](https://raw.githubusercontent.com/MeganByte72/images-for-player-association-manager/refs/heads/main/Screenshot%20From%202025-05-09%2015-28-01.png)
 
 Searching is easy after adding players or importing another persons data base threw the import feature you can do partial searchs for groups or players as well ^-^
+
+example of group search results ^-^ : 
+![searchresults](https://raw.githubusercontent.com/MeganByte72/images-for-player-association-manager/refs/heads/main/Screenshot%20From%202025-05-09%2015-32-38.png)
