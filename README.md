@@ -31,7 +31,7 @@ This program is made to keep track of players and who they are associated with o
 you can install the program by clicking on the code button on this repository and clicking "download zip"
 ![example](https://raw.githubusercontent.com/MeganByte72/images-for-player-association-manager/refs/heads/main/Screenshot%20From%202025-05-09%2015-50-29.png)
 
-after you have the zip file unzip it and make sure tht python3 is installed you can get python here : https://www.python.org/downloads/
+After you have the zip file unzip it and make sure tht python3 is installed you can get python here : https://www.python.org/downloads/
 
-then open a terminal in the folder tht you unziped the program to and type out this 
+Then open a terminal in the folder tht you unziped the program to and type out this 
 ![cmdcommand](https://raw.githubusercontent.com/MeganByte72/images-for-player-association-manager/refs/heads/main/Screenshot%20From%202025-05-09%2015-55-44.png)
