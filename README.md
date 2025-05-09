@@ -16,3 +16,6 @@ example of group search results ^-^ :
 
 You can click on the results for players you get and it will show you information associated with them as well as any notes you have added :
 ![searchresultsplayers](https://raw.githubusercontent.com/MeganByte72/images-for-player-association-manager/refs/heads/main/Screenshot%20From%202025-05-09%2015-35-13.png)
+
+There is alsos a feature to erase the entire database incase something happens and you have a reason to delete to database it can only be accessed by typings /nukedatabase after the localhost in the url to ensure it cant be accessed on acident from the main part of the program
+![nuke](https://raw.githubusercontent.com/MeganByte72/images-for-player-association-manager/refs/heads/main/Screenshot%20From%202025-05-09%2015-37-36.png)
